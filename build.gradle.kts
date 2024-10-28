@@ -18,6 +18,7 @@ tasks.jar {
 dependencies {
     testImplementation(kotlin("test"))
     implementation("net.dv8tion:JDA:5.1.2")
+    implementation("com.github.oshi:oshi-core:6.4.0")
 }
 
 tasks.test {

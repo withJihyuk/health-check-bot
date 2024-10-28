@@ -13,6 +13,7 @@ fun main() {
     builder.addEventListener(CustomCommands())
     builder.updateCommands().addCommands(
         Commands.slash("고양이", "고양이를 보여줍니다."),
-        Commands.slash("점유율", "ㅇㅅㅇ")
+        Commands.slash("점유율", "ㅇㅅㅇ"),
+        Commands.slash("아이피", "ㅇㅅㅇ")
     ).queue()
 }
